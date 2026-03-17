@@ -7,7 +7,7 @@ pipeline {
 
   environment {
     PATH                    = "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    JAVA_HOME               = "/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home"
+    JAVA_HOME                = "/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home"
     DOCKERHUB_CREDENTIALS_ID = 'Docker'
     IMAGE_NAME              = 'eliasrinne/shopping_cart'
     IMAGE_TAG               = 'latest'
